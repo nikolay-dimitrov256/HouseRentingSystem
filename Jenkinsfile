@@ -26,4 +26,5 @@ pipeline{
         failure{
             echo "Workflow execution failed"
         }
+    }
 }
