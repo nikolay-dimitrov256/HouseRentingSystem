@@ -13,10 +13,11 @@ pipeline{
             }
         }
 
-        stage("Test"){
+        stage("Run tests"){
              steps{
                 echo "dotnet test"
             }
+        }
     }
     post{
         success{
